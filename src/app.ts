@@ -57,11 +57,11 @@ let literal: "enable" | "enable";
 literal = "enable";
 // Вкажіть типи для наступних функцій
 
-function showMessage(message): void {
+function showMessage(message: any): void {
   console.log(message);
 }
 
-function calc(num1, num2): number {
+function calc(num1: number, num2: number): number {
   return num1 + num2;
 }
 
